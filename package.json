@@ -1,0 +1,23 @@
+{
+  "name": "mermaid_endpoint",
+  "version": "1.0.0",
+  "description": "mermaid code to UML diagram",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "codeless crusaders",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "mermaid": "^10.6.1",
+    "mermaid-cli": "^0.2.4",
+    "mermaid.cli": "^0.5.1",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^21.5.2",
+    "puppeteer-core": "^21.5.2"
+  }
+}
